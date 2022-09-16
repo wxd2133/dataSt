@@ -1,11 +1,6 @@
 import java.util.Scanner;
 
 public class NBody {
-    public static int readnum(String path) {
-        In in = new In(path);
-        int num = in.readInt();
-        return num;
-    }
 
     public static double readRadius(String path) {
         In in = new In(path);
